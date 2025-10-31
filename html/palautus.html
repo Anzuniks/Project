@@ -1,34 +1,49 @@
+
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Käyttämäni fontit</title>
+    <title>Tehtävän palautus</title>
+<style>
+    .kuvat {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px
+}
+</style>
 </head>
 <body>
-<h2>Font</h2>
-<p>Font is from <a href="https://fonts.google.com/specimen/Whatever">Google Fonts. Name: Whatever</a></p>
-<pre>
-    @font-face {
-      font-family: whatEver;
-      src: url(sansation_light.woff) format(woff);
-    }
+    <h2>Käyttämäni fontti</h2>
+    <a href="https://fonts.google.com/share?selection.family=Bitcount+Grid+Single:wght@100..900"> Bitcount Grid Single</a>
+    <h2>Fontin CSS koodi</h2>
+    <code>
+        body { <br>
+        background: linear-gradient(135deg, #141e30, #243b55);<br>
+        font-family: "Bitcount Grid Single", system-ui;<br>
+        font-optical-sizing: auto;<br>
+        font-weight: ;<br>
+        font-style: normal;<br>
+        font-variation-settings:<br>
+        "slnt" 0,<br>
+        "CRSV" 0.5,<br>
+        "ELSH" 0,<br>
+        "ELXP" 0;<br>
+        }
+    </code>
+    <h2>
+        Ruutukaappaukset testeistä
+    </h2>
+    <div class="kuvat">
+        <img src="./wave.png" alt="wave tulos">
+        <img src="./sivu1.png" alt="html check">
+        <img src="./sivu2.png" alt="html check">
+        <img src="./sivu3.png" alt="html check">
+        <img src="./lhouse1.png" alt="html check">
+        <img src="./lhouse2.png" alt="html check">
+        <img src="./lhouse3.png" alt="html check">
 
-    body {
-       font-family: whatEver;
-    }
-</pre>
-<h2>Validation</h2>
-<p>
-    <img src="img/validator.png" alt="valid">
-</p>
-<h2>Lighthouse</h2>
-<p>
-    <img src="img/lighthouse.png" alt="lighthouse">
-</p>
-<h2>Contrast</h2>
-<p>
-    <img src="img/contrast.png" alt="contrast">
-</p>
 
+    </div>
 </body>
 </html>
